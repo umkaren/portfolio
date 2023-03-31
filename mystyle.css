@@ -1,0 +1,104 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #C9E4CA;
+    color:#55828B;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* Navigation bar styling */
+.nav, .copyright-bar {
+    background-color: #87BBA2;
+}
+.nav-link {
+    display: inline-block;
+    text-align: center;
+    padding: 0.2rem 0.5rem;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bolder;
+    }
+
+.nav-link:hover {
+    border-bottom: 3px solid #55828B;
+    text-decoration: none;
+    color: #55828B;
+    }
+/* End navbar styling */
+
+footer {
+    margin-top: auto;
+}
+
+/* project page elements */
+.carousel-caption {
+    background-color: #55828bce;
+    border-radius: 0.25rem;
+}
+
+.project-container {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.card-img {
+    border: 3px solid whitesmoke;
+}
+
+/* end of project elements */
+
+/* about-us elements */
+
+.col-7 {
+    background-color: whitesmoke;
+}
+
+.col-5 {
+    padding:0%;
+}
+
+.about-me-main-container {
+    margin: 4rem;
+}
+
+#about-me-snip {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+/* end of about-us elements */
+
+/* beginning of other interest elements */
+
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    border-radius: 0.25rem;
+    color: whitesmoke;
+    text-shadow: #55828B;
+    flex: 0.5;
+    position: relative;
+    margin: 1rem;
+    flex: 5;
+}
+
+.panel h5 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+.panel:hover {
+    opacity: 0.75;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}​
